@@ -5,6 +5,6 @@
 <h6>How to install ?</h6>
 
 ```
-    1. download this repo as zip
-    2. Extract it
+    $ download this repo as zip
+    $ Extract it
 ```
