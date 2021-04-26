@@ -7,4 +7,5 @@
 ```
     $ download this repo as zip
     $ Extract it
+    $ Goto chrome -> settings -> extensions  [chrome://extensions/]
 ```
