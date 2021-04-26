@@ -1,0 +1,32 @@
+{
+    "name": "YT",
+    "description": "YT skip",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "bg.js"
+    },
+    "options_page": "option.html",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "fn.js"
+            ]
+        }
+    ]
+}
