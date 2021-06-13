@@ -1,4 +1,4 @@
-# Youtube-Add-Closer
+# Youtube-Ad-Closer
 
 #### An Chrome Extension which will close all adds of youtube automatically.
 
